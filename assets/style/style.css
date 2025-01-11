@@ -75,7 +75,7 @@ nav{
     font-size: 16px;
     color: #606660;
 }
-.card{
+.card-first{
     display: flex;
     gap: 24px;
     height: 100%;
@@ -104,4 +104,43 @@ nav{
 .Btn3{
     border-radius: 8px;
     background-color: #cbb687;
+}
+.satelite{
+    display: flex;
+    flex-direction:row;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.recent{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 32px;
+}
+.card1{
+    background-color: #eae9e9;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 24px;
+    border-radius:15px;
+}
+.card1 img{
+    border-radius: 15px;
+}
+.card2 img{
+    border-radius: 15px;
+}
+.card2{
+    background-color: #eae9e9 ;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 24px;
+    border-radius: 15px;
+}
+.Button{
+    border-radius: 8px;
+    background-color: #19951e;
+    padding: 10px;
+    color: white;
 }
