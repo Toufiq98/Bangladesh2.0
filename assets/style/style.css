@@ -1,0 +1,107 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 160px;
+    margin-top: 31px;
+    font-size: 32px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none; 
+    margin-right: px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn {
+    font-weight: bold;
+    color: #006A50;
+    font-size: 18px;
+    padding: 18px 35px;
+    border-radius: 8px;
+    margin-right: 160px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: white;
+}
+.btn2{
+    background-color: #006A50;
+    color: white;
+    padding: 15px 8px;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 100px 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 0%;
+}
+.banner-content{
+    max-width: 622px;
+    justify-content: space-around;
+}
+.main{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.main p{
+    font-size: 16px;
+    color: #606660;
+}
+.card{
+    display: flex;
+    gap: 24px;
+    height: 100%;
+    width: 100;
+}
+.title1{
+    background-color: #a5bde7;
+    padding: 32px; 
+}
+.title2{
+    background-color:rgb(116, 233, 181);
+    padding: 32px;
+}
+.title3{
+    background-color: #f1ad10;
+    padding: 32px;
+}
+.Btn1{
+    border-radius: 8px;
+    background-color: #5791f5;
+}
+.Btn2{
+    border-radius: 8px;
+    background-color: #159a78;
+}
+.Btn3{
+    border-radius: 8px;
+    background-color: #cbb687;
+}
