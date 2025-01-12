@@ -105,7 +105,7 @@ nav{
     border-radius: 8px;
     background-color: #cbb687;
 }
-.satelite{
+.satelite {
     display: flex;
     flex-direction:row;
     margin-left: 250px;
@@ -116,6 +116,15 @@ nav{
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 32px;
+}
+.quote{
+    text-align: center;
+    background-image: url(../quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: #d1d7e2;
+    margin-left: 100px;
+    margin-right: 100px;
+    
 }
 .card1{
     background-color: #eae9e9;
@@ -182,8 +191,9 @@ nav{
     text-align: center;
     padding: 40px 20px;
     font-size: 20px;
-    margin-bottom: 32px;   
-}
+    margin-bottom: 32px;
+}  
+
 .done{
     display: flex;
     justify-content: center;
