@@ -110,6 +110,7 @@ nav{
     flex-direction:row;
     margin-left: 250px;
     margin-right: 250px;
+    margin-bottom: 80px;
 }
 .recent{
     margin-left: 250px;
@@ -137,10 +138,58 @@ nav{
     gap: 32px;
     margin-bottom: 24px;
     border-radius: 15px;
+    
 }
 .Button{
     border-radius: 8px;
     background-color: #19951e;
     padding: 10px;
     color: white;
+}
+.footer-title{
+    font-family: fira sans;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.footer-title p{
+    font-size: 16px;
+}
+.footer{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.donate-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 104px;
+    margin-right: 104px;
+}
+.donate{
+    border-radius: 16px;
+    padding: 40px 40px;
+    background-color: #FFFFFF;
+    gap: 24px;
+    font-family: Fira Sans;
+    font-weight: bold;
+    font-size: 40px;
+    height: 100;
+    margin-bottom: 32px;  
+}
+.input{
+    display:block;
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 20px;
+    margin-bottom: 32px;   
+}
+.done{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
 }
