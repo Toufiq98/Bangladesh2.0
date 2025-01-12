@@ -31,11 +31,17 @@ nav li a {
     margin-bottom: 24px;
     background-color: white;
 }
+.btn :hover{
+    background-color: #19951e;
+}
 .btn2{
     background-color: #006A50;
     color: white;
     padding: 15px 8px;
     border-radius: 10px;
+}
+.btn2 :hover{
+    background-color: #749875;
 }
 nav{
     display: flex;
@@ -97,13 +103,22 @@ nav{
     border-radius: 8px;
     background-color: #5791f5;
 }
+.Btn1 :hover{
+    background-color: #689af1;
+}
 .Btn2{
     border-radius: 8px;
     background-color: #159a78;
 }
+.Btn2 :hover{
+    background-color: #9da9a7;
+}
 .Btn3{
     border-radius: 8px;
     background-color: #cbb687;
+}
+.Btn3 :hover{
+    background-color: #f1bb25;
 }
 .satelite {
     display: flex;
@@ -154,6 +169,9 @@ nav{
     background-color: #19951e;
     padding: 10px;
     color: white;
+}
+.Button :hover{
+    background-color: #295c94;
 }
 .footer-title{
     font-family: fira sans;
